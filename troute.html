@@ -1,0 +1,134 @@
+
+<!DOCTYPE html >
+<html>
+<head>
+<title>E-Ticketing</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="css/style2.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/coin-slider.css" />
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-titillium-900.js"></script>
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/coin-slider.min.js"></script>
+</head>
+<body>
+<div class="main">
+  <div class="header">
+    <div class="header_resize">
+      <div class="menu_nav">
+        <ul>
+          <li><a href="mbinfo.php"><span>Dashboard</span></a></li>
+          <li><a href="troute.html"><span>Train Route</span></a></li>
+          <li><a href="tpurchase.html"><span>Purchase Ticket</span></a></li>
+          <li><a href="chpass.php"><span>Change Password</span></a></li>
+          <li><a href="lout.php"><span>Log Out</span></a></li>
+        </ul>
+      </div>
+      <div class="logo">
+        <h1><a href="index.html">Bangladesh<span>&nbsp;Railway</span><small>Online E-Tickteing Service</small></a></h1>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="content_resize">
+      <div class="mainbar">
+        <div class="article">
+          <h2><span>Find Train Route Here</span></h2>
+          <hr class="w1" align="left" width="90%" size="5" noshade="noshade"/>
+          <div class="clr"></div>
+          <form action="search2.php" method="POST" target="_self">
+            <ol>
+             <li>
+                <label for="Station from">Station From :</label>
+                 <select name="sstation" id="email" class="text">
+                              <option value=""><------------ Select Station----------> </option>
+                              <option value="Dhaka">Dhaka</option>
+                              <option value="chittagong">chittagong</option>
+                              <option value="Dinajpur">Dinajpur</option>
+                              <option value="Sylhet">Sylhet</option>
+                </select>
+              </li>
+              <li>
+                <label for="date">Date :</label>
+                <select name="date" id="email" class="text">
+                              <option value=""><------------ Select Date-------------> </option>
+                              <option value="08-08-2016">08-08-2016</option>
+                              <option value="09-08-2016">09-08-2016</option>
+                              <option value="10-08-2016">10-08-2016</option>
+                              </select>
+               </li> 
+               <li>
+                <label for="station to">Station To :</label>
+                 <select name="astation" id="email" class="text">
+                              <option value=""><------------ Select Station----------> </option>
+                              <option value="Dhaka">Dhaka</option>
+                              <option value="chittagong">chittagong</option>
+                              <option value="Dinajpur">Dinajpur</option>
+                              <option value="Sylhet">Sylhet</option>
+                </select>
+              </li> 
+             <li>
+                <label for="class">Class :</label>
+              <select name="class" id="email" class="text">
+                              <option value=""><------------ Select Class-------------> </option>
+                              <option value="shulov">Shulov</option>
+                              <option value="shovan">Shovan</option>
+                              <option value="chair">Chair</option>
+                              <option value="ac">AC</option>
+                              </select> 
+               </li>                           
+              <li>
+              <input type="Submit" id="imageField" src="images/submit.gif" value="Search Train" name="btn" class="send">
+                <div class="clr"></div>
+              </li>
+            </ol>
+          </form>
+    </div>
+      </div>
+      <div class="sidebar">
+        <div class="gadget">
+          <div class="clr"></div>
+        </div>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="fbg">
+    <div class="fbg_resize">
+      <div class="col c1">
+        <h2><span>Image</span> Gallery</h2>
+         <img src="images/20.jpg" width="75" height="75" alt="" class="gal" /> <img src="images/24.jpg" width="75" height="75" alt="" class="gal" />
+        <img src="images/21.jpg" width="75" height="75" alt="" class="gal" /><img src="images/gal4.jpg" width="75" height="75" alt="" class="gal" />
+        <img src="images/23.jpg" width="75" height="75" alt="" class="gal" /><img src="images/gal6.jpg" width="75" height="75" alt="" class="gal" />
+        </div>
+      <div class="col c2">
+        <h2><span>Services</span> Overview</h2>
+           <p>We have an intimate dining atmosphere that doesn't come at the expense of professional quality. Something unique that reflects the authenticity of what customers truly deserve. Our dining area alone consists of elegant furniture and subtle classy beautifully set tables, special lighting effects and a captivating space for your every convenience.</p>
+        <ul class="fbg_ul">
+          <li><a href="#">We actually deliver what you simply deserve!</a></li>
+          <li><a href="#">We AIM to give you TOTAL SATISFACTION!</a></li>
+          <li><a href="#">We are open daily from 10am to 12pm.</a></li>
+        </ul>
+      </div>
+      <div class="col c3">
+        <h2><span>Contact</span> Us</h2>
+        <p class="contact_info"> <span>Address:</span> Ring Road, Dhaka<br />
+          <span>Number:</span>  01866686023 <br />
+          <span>FAX:</span> +458-4578<br />
+          <span>E-mail:</span> <a href="#">tasnimislamuap35@gmail.com</a> </p>
+      </div>
+      <div class="clr"></div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer_resize">
+      <p class="lf">Copyright &copy; <a href="#">Tasnim Islam</a>. All Rights Reserved</p>
+      <p class="rf">Powered by <a target="_blank" href="http://www.Google.com/"></a>Google</p>
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
